@@ -59,3 +59,10 @@ switchToSignupBtn.addEventListener('click', function() {
     registrationForm.classList.add('active');  
 });
 
+switchToLoginBtn.addEventListener('click', function() {
+    window.location.href = 'login.html'; // Switch to the login page
+});
+
+switchToSignupBtn.addEventListener('click', function() {
+    window.location.href = 'login.html'; // Switch to the login page
+});
