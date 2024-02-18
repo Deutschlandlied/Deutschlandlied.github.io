@@ -30,3 +30,8 @@ button[type="submit"] {
     border: none;
     cursor: pointer;
 }
+
+#loginForm { /* Assuming your login form has this ID */
+    display: none; 
+} 
+
