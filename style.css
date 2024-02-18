@@ -35,3 +35,13 @@ button[type="submit"] {
     display: none; 
 } 
 
+/* ... Other styles ... */
+
+.form-container { /* Update with the proper class or ID of your container */
+    transition: opacity 0.5s ease-in-out; /* Controls fade time */
+}
+
+#loginForm { /* Start login as hidden */
+    opacity: 0;  
+}
+
