@@ -45,3 +45,17 @@ switchToSignupBtn.addEventListener('click', function() {
     registrationForm.style.display = 'block'; // Show registration
 });
 
+// ... Existing code ...
+
+// ... (Button and form references like before) ...
+
+switchToLoginBtn.addEventListener('click', function() {
+    registrationForm.classList.remove('active'); 
+    loginForm.classList.add('active'); 
+});
+
+switchToSignupBtn.addEventListener('click', function() {
+    loginForm.classList.remove('active');  
+    registrationForm.classList.add('active');  
+});
+
