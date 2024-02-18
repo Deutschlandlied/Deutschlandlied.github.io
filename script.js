@@ -22,6 +22,21 @@ switchToLoginBtn.addEventListener('click', function() {
     loginForm.style.display = 'block';   // Show login
 });
 
+// ... Existing code ...
+
+// ... (Button and form references like before) ...
+
+switchToLoginBtn.addEventListener('click', function() {
+    registrationForm.classList.remove('active'); 
+    loginForm.classList.add('active'); 
+});
+
+switchToSignupBtn.addEventListener('click', function() {
+    loginForm.classList.remove('active');  
+    registrationForm.classList.add('active');  
+});
+
+
 switchToSignupBtn.addEventListener('click', function() {
     loginForm.style.display = 'none';    // Hide login
     registrationForm.style.display = 'block'; // Show registration
