@@ -41,3 +41,11 @@ switchToSignupBtn.addEventListener('click', function() {
     loginForm.style.display = 'none';    // Hide login
     registrationForm.style.display = 'block'; // Show registration
 });
+
+switchToLoginBtn.addEventListener('click', function() {
+    window.location.href = 'login.html'; // Switch to the login page
+});
+
+switchToSignupBtn.addEventListener('click', function() {
+    window.location.href = 'login.html'; // Switch to the login page
+});
